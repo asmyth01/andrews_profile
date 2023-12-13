@@ -15,8 +15,6 @@ export default class Header extends Component {
           <div className="header-content">
             <h1 className="header-title">Andrew Smyth</h1>
             <h6 className="header-mono">Senior Software Engineer | GIS Expert</h6>
-            <h6 className="title text-danger">(This Site is Under Construction!)</h6>
-            <button className="btn btn-primary btn-rounded"><i className="ti-printer pr-2" />Print Resume</button>
           </div>
         </div>
       </header>

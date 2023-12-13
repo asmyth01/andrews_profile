@@ -23,7 +23,7 @@ export default class Resume extends Component {
             <h6 className="title text-danger">2019 - 2023</h6>
             <p>Front-end Developer</p>
             <h6 className="subtitle text-dark">Zillow - Software Development Engineer</h6>
-            <p className="subtitle">Helped developed new search platform, managed geospatial data, created derived data products,developed ETL workflows, built new geotagging platform.</p>
+            <p className="subtitle">Helped develop new search platform, managed geospatial data, created derived data products,developed ETL workflows, built new geotagging platform.</p>
             <hr />
             <h6 className="title text-danger">2016 - 2019</h6>
             <h6 className="subtitle text-dark">Zillow - GIS Manager</h6>

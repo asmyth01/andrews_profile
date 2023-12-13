@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './assets/css/johndoe.css';
 import Nav from  './components/nav';
 import About from './components/about';
 import Resume from './components/resume';
 import Numbers from './components/numbers';
-import MyServices from './components/my_services';
+import MyServices from './components/portfolio';
 import Header from './components/header';
 
 function App() {
@@ -12,9 +11,9 @@ function App() {
     <div>
       <meta charSet="utf-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-      <meta name="description" content="Start your development with JohnDoe landing page." />
-      <meta name="author" content="Devcrud" />
-      <title>JohnDoe Landing page | Free Bootstrap 4.3.x landing page</title>
+      <meta name="description" content="A personal profile page for Andrew Smyth." />
+      <meta name="author" content="Andrew Smyth" />
+      <title>Andrew Smyth</title>
       {/* font icons */}
       <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css" />
       {/* Bootstrap + JohnDoe main styles */}
@@ -28,24 +27,16 @@ function App() {
       <MyServices></MyServices>
       <section className="section bg-dark py-5">
         <div className="container text-center">
-          <h2 className="text-light mb-5 font-weight-normal">I Am Available For FreeLance</h2>
-          <button className="btn bg-primary w-lg">Hire me</button>
+          <h2 className="text-light mb-5 font-weight-normal">Open to Hiring Opportunities</h2>
+          <h5 className="text-light mb-5 font-weight-normal">Recruiters reach out on <a href="https://www.linkedin.com/in/andrew-j-smyth">LinkedIn</a></h5>
         </div>
       </section>
-      
-      
       <footer className="footer py-3">
         <div className="container">
-          <p className="small mb-0 text-light">
-            ©  Created With <i className="ti-heart text-danger" /> By <a href="http://devcrud.com" target="_blank"><span className="text-danger" title="Bootstrap 4 Themes and Dashboards">DevCRUD</span></a> 
-          </p>
+          <p className="small mb-0 text-light">Created With React</p>
+          <p>Copyright Andrew Smyth 2023</p>
         </div>
       </footer>
-      {/* core  */}
-      {/* bootstrap 3 affix */}
-      {/* Isotope  */}
-      {/* Google mpas */}
-      {/* JohnDoe js */}
     </div>
   );
 }

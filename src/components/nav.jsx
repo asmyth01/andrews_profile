@@ -15,18 +15,19 @@ export default class About extends Component {
               <li className="nav-item">
                 <a href="#about" className="nav-link">About</a>
               </li>
-              <li className="nav-item">
-                <a href="#resume" className="nav-link">Resume</a>
-              </li>
+              
             </ul>
             <ul className="navbar-nav brand">
               <img src="assets/imgs/avatar.jpg" alt="" className="brand-img" />
               <li className="brand-txt">
-                <h5 className="brand-title">John Doe</h5>
-                <div className="brand-subtitle">Web Designer | Developer</div>
+                <h5 className="brand-title">Andrew Smyth</h5>
+                <div className="brand-subtitle">Senior Software Engineer</div>
               </li>
             </ul>
             <ul className="navbar-nav ml-auto">
+            <li className="nav-item">
+                <a href="#resume" className="nav-link">Resume</a>
+              </li>
               <li className="nav-item">
                 <a href="#portfolio" className="nav-link">Portfolio</a>
               </li>
