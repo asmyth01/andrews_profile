@@ -41,7 +41,7 @@ export default class Nav extends Component {
             </div>
           </div>
           <div className="col-lg-4 about-card">
-          <h3 className="font-weight-light">Links</h3>
+          <h3 className="font-weight-light">My Work</h3>
             <span className="line mb-5" />
             <div className="row">
               <div className="col-1 text-danger pt-1"><i className="ti-widget icon-lg" /></div>
