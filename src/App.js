@@ -5,6 +5,9 @@ import Resume from './components/resume';
 import Numbers from './components/numbers';
 import MyServices from './components/portfolio';
 import Header from './components/header';
+import HiringBanner from './components/hiring_banner';
+import Footer from './components/footer';
+
 
 function App() {
   return (
@@ -25,18 +28,8 @@ function App() {
       <Resume></Resume>
       <Numbers></Numbers>
       <MyServices></MyServices>
-      <section className="section bg-dark py-5">
-        <div className="container text-center">
-          <h2 className="text-light mb-5 font-weight-normal">Open to Hiring Opportunities</h2>
-          <h5 className="text-light mb-5 font-weight-normal">Recruiters reach out on <a href="https://www.linkedin.com/in/andrew-j-smyth">LinkedIn</a></h5>
-        </div>
-      </section>
-      <footer className="footer py-3">
-        <div className="container">
-          <p className="small mb-0 text-light">Created With React</p>
-          <p>Copyright Andrew Smyth 2023</p>
-        </div>
-      </footer>
+      <HiringBanner></HiringBanner>
+      <Footer></Footer>
     </div>
   );
 }
